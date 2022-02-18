@@ -11,6 +11,12 @@ module.exports = {
     "react-hooks/exhaustive-deps": 2,
   },
 
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
+
   overrides: [
     {
       files: ["*.{ts,tsx}"],
