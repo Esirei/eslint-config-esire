@@ -1,7 +1,3 @@
 module.exports = {
-  extends: [
-    'airbnb',
-    './typescript.js',
-    './tailwindcss.js',
-  ],
+  extends: ["./typescript.js", "./tailwindcss.js"],
 };

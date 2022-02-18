@@ -6,11 +6,8 @@ module.exports = {
   },
 
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
   },
 
-  extends: [
-    'eslint:recommended',
-    'airbnb-base',
-  ],
+  extends: ["eslint:recommended"],
 };
