@@ -19,8 +19,9 @@ module.exports = {
       ],
 
       rules: {
-        "@typescript-eslint/no-unused-vars": [2, { argsIgnorePattern: "^_" }],
-        "no-unused-vars": 0,
+        'no-unused-vars': 0,
+        '@typescript-eslint/no-non-null-assertion': 0,
+        '@typescript-eslint/no-unused-vars': [2, { argsIgnorePattern: '^_' }],
       },
     },
   ],
